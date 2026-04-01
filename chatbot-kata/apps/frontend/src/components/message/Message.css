@@ -1,0 +1,23 @@
+.message {
+  max-width: 75%;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.message.user {
+  background: #007bff;
+  color: white;
+  margin-left: auto;
+}
+
+.message.bot {
+  background: #e4e6eb;
+  margin-right: auto;
+}
+
+.message.typing {
+  opacity: 0.7;
+  font-style: italic;
+}
